@@ -9,16 +9,114 @@ box-sizing: border-box;
     font-weight: bold;
 }
 
-.container{
+.container-body{
     width: 80%;
     margin-left: 10% ;
 }
+
+/* nav bar section- Nadia */
+
+  .container {
+      width: 80%;
+      margin: auto;
+
+  }
+  .header-component{
+      text-align: center;
+      margin-top: 30px;
+      margin-bottom: 60px;  
+  }
+  .header-logo{
+      font-size: 60px;
+      font-family:'Playfair Display', serif;
+      margin-bottom: 9px;
+  }
+  .header-underlogo{
+      letter-spacing: 9px;
+  }
+  .nav-component ul{
+      display: flex;  
+      flex-direction: row;
+      text-align: center; 
+      list-style: none;
+      justify-content: space-around;
+      margin-bottom: 40px;
+      
+  }
+  .nav-underline{
+      margin: auto;
+      border-radius: 5px;
+    
+
+  }
+  .nav-links a {
+    text-decoration: none;
+    color: black;
+    border-radius: 3px;
+    padding: 7px 13px;
+
+}
+.nav-links a.active,.nav-links a:hover{
+   background: #000;
+   transition: .5s;
+   color: white;
+}
+.checkbtn{
+    position: relative;
+    font-size:30px ;
+    color: black;
+    line-height: 0px;
+    cursor: pointer; 
+     display: none;
+ }
+@media (max-width: 504px) {
+    .header-component{
+        display: flex; 
+        justify-content: space-around;
+        
+    }
+    .header-logo{
+        font-size: 25px;
+        font-family:'Playfair Display', serif;
+        margin-bottom: 9px;
+    }
+    .header-underlogo{
+        font-size: 10px;
+        letter-spacing: 3px;
+    }
+    .checkbtn{
+        margin: 15px 0px 0 20px;
+        color: black;
+        cursor: pointer; 
+        display:initial;
+    
+     }
+     .nav-component ul {
+         width: 100%;
+         display: flex;
+         flex-direction: column;
+         margin-bottom: 0px;
+
+     }
+     .nav-links {
+         display: none;
+     }
+     .nav-links a{
+        
+        display: flex;
+        margin: 20px;
+        justify-content: center;
+     }
+     .activited{
+         display: block;
+     }
+} 
 
 /* blog content details */
 
 .blog-body{
     padding-right: 0;
-    width: 90%;
+    width: 80%;
 }
 
 
@@ -38,7 +136,7 @@ h1{
 }
 
 
-a{
+.type {
     display: inline-block;
     color: rgb(255, 255, 255);
     text-decoration: none;
@@ -52,7 +150,7 @@ a{
 
 .blog-details{
     color: gray;
-    font-size: 0.5rem;
+    font-size: 0.7rem;
 }
 .blog-details-content{
     margin: 10px;
@@ -75,7 +173,7 @@ img{
 .blog-text{
     display: block;
     font-family: 'Roboto',Arial, Helvetica, sans-serif;
-    font-size: 0.95rem;
+    font-size: 1.1rem;
     line-height: 1.8 ;
     color: #3a3a3a;
 }
@@ -127,9 +225,11 @@ blockquote :before {
 
 /* side bar */
 aside{
-    width: 10%;
+    display: flex;
+    width: 30%;
     margin: 0;
-     
+    padding-top: 7%;
+    
     
 }
 .side-bar{
@@ -139,6 +239,7 @@ aside{
     flex-wrap: nowrap;
     align-items: flex-start;
     height: 100vw;
+    
 }
 
 .sidebar-container{
@@ -149,15 +250,57 @@ aside{
 
 
 .highlight{
-    width: 100px;
-    height: 100px;
-    border: 2px solid blue;
+    width: 100%;
+    height:100%;
+    /* border: 2px solid blue; */
  
 }
 
-.most-read{
-    width: 100px;
-    height: 100px;
-    border: 2px solid blue;
+
+.highlight-text{
+    font-size: 1.2rem;
+    color: rgb(24, 24, 24);
 }
 
+p{
+    color: rgb(26, 25, 25);
+    font-size: 1.2rem;
+}
+
+
+.highlight-text:hover{
+    cursor: pointer;
+}
+
+.sidebar-photo{
+    width: 100%;
+    align-self: center;
+}
+
+.sidebar-photo:hover{
+    cursor: pointer;
+}
+@media screen and (max-width: 600px) {
+    aside{
+        display: flex;
+    }
+
+    .container{
+        width: 100%;
+    }
+    .blog-page{
+        display: flex;
+        padding-left: 0;
+        padding-right: 0;
+        flex-wrap: nowrap;
+        margin-top: 3%;
+        flex-direction: column-reverse;
+    }
+    .container-body{
+        width: 100%;
+    }
+    .blog-image {
+        margin: 0 0;
+    }
+    
+}
