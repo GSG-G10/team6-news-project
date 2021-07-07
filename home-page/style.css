@@ -27,7 +27,8 @@ a {
     color: #FFF;
     padding-top: 15%;
 }
-.showcase button{
+.showcase .border-to-right{
+    width: 140px;
     background: #000;
     color: #FFF;
     padding: 5px 10px;
@@ -35,6 +36,21 @@ a {
     border: none;
     outline: none;
     text-transform: uppercase;
+    cursor: pointer;
+    overflow: hidden;
+    position: relative;
+}
+.showcase .border-to-right span:first-child {
+    background-color: #fff;
+    width: 0%;
+    height: 4px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transition: all 0.8s ease-in-out;
+}
+.showcase .border-to-right:hover span:first-child {
+    width: 100%;
 }
 .showcase-content {
     font-size: 2rem;
