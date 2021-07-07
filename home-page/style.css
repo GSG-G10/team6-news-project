@@ -42,6 +42,17 @@ a {
     padding-top : 10px;
     line-height: 1.6;
 }
+.showcase-author{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    font-weight: bold;
+}
+.showcase-author img{
+    border-radius: 50%;
+    margin-right: 10px;
+
+}
 /* End section showcase */
 
 /* start section seprator */
