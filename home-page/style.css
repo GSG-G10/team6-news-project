@@ -17,10 +17,7 @@ a {
 }
 /* start section showcase */
 .showcase-fluid {
-    background-image: url('../images/home/background-showcase.jpg');
-    background-size: cover;
-    background-position:center;
-    background-repeat: no-repeat;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/home/background-showcase.jpg) center/cover no-repeat;
 }
 .showcase {
     height: 80vh;
