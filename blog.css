@@ -71,10 +71,10 @@ body {
 }
 .social-menu ul {
   display: flex;
+  justify-content: space-around;
   list-style: none;
   margin-top: 28px;
   width: 500px;
-  justify-content: space-around;
 }
 
 .social-menu ul li .fa {
@@ -116,3 +116,11 @@ body {
   background-color: #0077b5;
 }
 /* Footer starts here */
+
+@media (max-width: 600px) {
+  .social-menu ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
