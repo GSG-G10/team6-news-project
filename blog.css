@@ -8,6 +8,58 @@ body {
   font-family: "Roboto", sans-serif;
   height: 500px;
 }
+/* comments-section starts here */
+.comments-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  margin: 70px auto;
+}
+.comments-section h2 {
+  font-size: 20px;
+  margin-bottom: 15px;
+  width: 100%;
+}
+.comments-section input {
+  width: 100%;
+  height: 50px;
+  padding: 0px 20px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: 1px solid #86b0b6;
+}
+.comments-section input: :focus {
+  border: 1px solid #000;
+}
+.comments-section textarea {
+  width: 100%;
+  height: 150px;
+  padding: 15px 20px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #86b0b6;
+}
+.comments-section textarea:focus {
+  border: 1px solid #000;
+  outline: 0;
+}
+.comments-section button {
+  border: 0;
+  padding: 10px 30px;
+  background: #86b0b6;
+  font-size: 18px;
+  border-radius: 5px;
+  color: #fff;
+}
+.comments-section button:hover {
+  transition: all 0.5s ease-in-out;
+  background-color: #718a8e;
+}
+/* comments-section ends here */
+
+/* Footer starts here */
 .footer-content {
   text-align: center;
 }
@@ -24,8 +76,7 @@ body {
   width: 500px;
   justify-content: space-around;
 }
-/* .social-menu ul li {
-} */
+
 .social-menu ul li .fa {
   color: #000000;
   font-size: 25px;
@@ -64,3 +115,4 @@ body {
 .social-menu ul li:nth-child(5) a:hover {
   background-color: #0077b5;
 }
+/* Footer starts here */
