@@ -1,6 +1,6 @@
 # Team6: Quantums NewsPaper & Magazines
 
-Team6: Quantums NewsPaper & Magazines live link:
+Team6: Quantums NewsPaper & Magazines live link: https://discordapp.com/channels/691675193759891516/861893814729310228/862383675642478642 <br>
 Team6 website for up-to-date news.
 
 # Team members:
@@ -19,7 +19,7 @@ Team6 website for up-to-date news.
 
 Team6 news website aims to deliver an up-to-date news and interesting topics, to give you a world-wide insight of what's going on around you.
 
-The website contains news sections of all sorts from sports, science, technologies etc...
+The website contains news sections of all sorts from Science, Politics, Televesion, needless to say the highlights sections for related news.
 
 The website is very easy to navigate with the ability to leave your feedback on the comments section for each article or news you read,
 to ensure that your opinion is heard, and our news to be as optimized as you would always expect.
@@ -29,8 +29,9 @@ The website footers provides all necessary informations to reach us whether via 
 # User Journey:
 
 - Starts with the "Home Page".
-- Header section contains Navbar with all available news(Sports, Technology, Science, etc...).
+- Header section contains Navbar with all available news(Home, Science, Politics, Televesion).
 - "Body" contains hottest most recent news contents.
+- "Highlights" sections for related news.
 - "Comments Section" leaves a room for each reader to leave their opinion and submit it as they please.
 - "Footer" section provides all social media contact informations.
 
