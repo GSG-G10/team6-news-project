@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  
+  body {
+    font-family: "Roboto", sans-serif;
+  }
+  .container {
+      width: 80%;
+      margin: auto;
+
+  }
+  .header-component{
+      text-align: center;
+      margin-top: 30px;
+      margin-bottom: 60px;  
+  }
+  .header-logo{
+      font-size: 60px;
+      font-family:'Playfair Display', serif;
+      margin-bottom: 9px;
+  }
+  .header-underlogo{
+      letter-spacing: 9px;
+  }
+  .nav-component ul{
+      display: flex;  
+      flex-direction: row;
+      text-align: center; 
+      list-style: none;
+      justify-content: space-around;
+      margin-bottom: 40px;
+      
+  }
+  .nav-underline{
+      margin: auto;
+      border-radius: 5px;
+    
+
+  }
+  .nav-links a {
+    text-decoration: none;
+    color: black;
+    border-radius: 3px;
+    padding: 7px 13px;
+
+}
+.nav-links a.active,.nav-links a:hover{
+   background: #000;
+   transition: .5s;
+   color: white;
+}
+.checkbtn{
+    position: relative;
+    font-size:30px ;
+    color: black;
+    line-height: 0px;
+    cursor: pointer; 
+     display: none;
+
+ }
+@media (max-width: 504px) {
+    .header-component{
+        display: flex; 
+        justify-content: space-around;
+        
+    }
+    .header-logo{
+        font-size: 25px;
+        font-family:'Playfair Display', serif;
+        margin-bottom: 9px;
+    }
+    .header-underlogo{
+        font-size: 10px;
+        letter-spacing: 3px;
+    }
+    .checkbtn{
+        margin: 15px 0px 0 20px;
+        color: black;
+        cursor: pointer; 
+        display:initial;
+    
+     }
+     .nav-component ul {
+         width: 100%;
+         display: flex;
+         flex-direction: column;
+         margin-bottom: 0px;
+
+     }
+     .nav-links {
+         display: none;
+     }
+     .nav-links a{
+        
+        display: flex;
+        margin: 20px;
+        justify-content: center;
+     }
+     .activited{
+         display: block;
+     }
+}
