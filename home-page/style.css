@@ -7,7 +7,7 @@
   body {
     font-family: "Roboto", sans-serif;
   }
-  .contain {
+  .container {
       width: 80%;
       margin: auto;
 
@@ -30,13 +30,12 @@
       flex-direction: row;
       text-align: center; 
       list-style: none;
-      justify-content: center;
+      justify-content: space-around;
       margin-bottom: 40px;
       
   }
   .nav-underline{
       margin: auto;
-      width: 80%;
       border-radius: 5px;
     
 
