@@ -40,13 +40,6 @@
     
 
   }
-  /* nav ul li {
-      display: flex;
-      list-style: none;
-      justify-content: space-around;
-      flex-direction: row;
-      
-  } */
   nav ul li a {
     text-decoration: none;
     color: black;
@@ -64,9 +57,7 @@ a.active,a:hover{
     font-size:30px ;
     color: black;
     line-height: 0px;
-    /* margin-right: 10px; */
     cursor: pointer; 
-    /* float: right; */
      display: none;
  }
 @media (max-width: 504px) {
@@ -110,6 +101,4 @@ a.active,a:hover{
      .activited{
          display: block;
      }
-
-
 }
