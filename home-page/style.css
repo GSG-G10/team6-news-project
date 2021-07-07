@@ -127,3 +127,38 @@ a {
     font-size: 0.7rem;
 }
 /* End section News */
+
+/* start media query */
+@media (max-width:599px){  /* Phones */
+    .showcase-content {
+        padding-top: 40%;
+        font-size: 1.6rem;
+        width: 100%;
+    }
+    .news-box , .new-box-group {
+        flex-direction: column;
+    }
+    .news-box .news-link-box-large, .news-box .new-box-group {
+        width: 100%;
+    }
+    .new-box-group a {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 20px;
+    }
+    .new-box-group .new-box-small h2 {
+        font-size: 1.2rem;
+    }
+}
+@media (min-width:600px) and (max-width:900px){     /* Tablets(Portrait Mode) */
+    .showcase-content {
+        width: 100%;
+    }
+    .new-box-group .new-box-small h2{
+        font-size: 0.7rem;
+    }
+    .new-box-group .new-box-small .new-post{
+        font-size: 0.55rem;
+    }
+}
+/* End media query */
