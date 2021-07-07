@@ -150,7 +150,7 @@ h1{
 
 .blog-details{
     color: gray;
-    font-size: 0.5rem;
+    font-size: 0.7rem;
 }
 .blog-details-content{
     margin: 10px;
@@ -173,7 +173,7 @@ img{
 .blog-text{
     display: block;
     font-family: 'Roboto',Arial, Helvetica, sans-serif;
-    font-size: 0.95rem;
+    font-size: 1.1rem;
     line-height: 1.8 ;
     color: #3a3a3a;
 }
