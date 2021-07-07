@@ -25,11 +25,22 @@ a {
 .showcase {
     height: 80vh;
     color: #FFF;
+    padding-top: 15%;
+}
+.showcase button{
+    background: #000;
+    color: #FFF;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    text-transform: uppercase;
 }
 .showcase-content {
-    padding-top: 15%;
     font-size: 2rem;
     width: 50%;
+    padding-top : 10px;
+    line-height: 1.6;
 }
 /* End section showcase */
 
@@ -131,7 +142,6 @@ a {
 /* start media query */
 @media (max-width:599px){  /* Phones */
     .showcase-content {
-        padding-top: 40%;
         font-size: 1.6rem;
         width: 100%;
     }
