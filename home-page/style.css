@@ -48,7 +48,7 @@
 
 }
 .nav-links a.active,.nav-links a:hover{
-   background: #909090;
+   background: #000;
    transition: .5s;
    color: white;
 }
