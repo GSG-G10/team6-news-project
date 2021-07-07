@@ -59,6 +59,7 @@
     line-height: 0px;
     cursor: pointer; 
      display: none;
+
  }
 @media (max-width: 504px) {
     .header-component{
