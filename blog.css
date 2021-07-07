@@ -30,7 +30,7 @@ body {
   border-radius: 5px;
   border: 1px solid #86b0b6;
 }
-.comments-section input: :focus {
+.comments-section input:focus {
   border: 1px solid #000;
 }
 .comments-section textarea {
@@ -115,7 +115,8 @@ body {
 .social-menu ul li:nth-child(5) a:hover {
   background-color: #0077b5;
 }
-/Footer starts here */ @media (max-width: 600px) {
+/*Footer starts here */
+@media (max-width: 600px) {
   .social-menu ul {
     display: flex;
     flex-direction: column;
