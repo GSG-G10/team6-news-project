@@ -32,3 +32,11 @@ a {
     width: 50%;
 }
 /* End section showcase */
+
+/* start section seprator */
+.seprator {
+    width: 100%;
+    border-top: 6px solid;
+    margin: 10% 0 3% 0;
+}
+/* End section seprator */
