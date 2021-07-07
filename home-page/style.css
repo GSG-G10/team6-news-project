@@ -47,7 +47,7 @@
     padding: 7px 13px;
 
 }
-a.active,a:hover{
+.nav-links a.active,.nav-links a:hover{
    background: #909090;
    transition: .5s;
    color: white;
