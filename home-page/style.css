@@ -92,7 +92,7 @@ a.active,a:hover{
      .nav-links {
          display: none;
      }
-     nav ul li a{
+     .nav-liknks a{
         
         display: flex;
         margin: 20px;
