@@ -1,6 +1,6 @@
 # Team6: Quantums NewsPaper & Magazines
 
-Team6: Quantums NewsPaper & Magazines live link: https://discordapp.com/channels/691675193759891516/861893814729310228/862383675642478642 <br>
+Team6: Quantums NewsPaper & Magazines live link: https://gsg-g10.github.io/team6-news-project/ <br>
 Team6 website for up-to-date news.
 
 # Team members:
